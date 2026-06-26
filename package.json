@@ -8,7 +8,8 @@
   "files": [
     "src",
     "__tests__",
-    "README.md"
+    "README.md",
+    "demo.gif"
   ],
   "keywords": [
     "react-native",

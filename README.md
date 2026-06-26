@@ -4,6 +4,8 @@ A customizable tournament bracket view for React Native with animated scroll, SV
 
 Supports bracket sizes of **4, 8, 16, and 32 teams** (powers of 2).
 
+![demo](./demo.gif)
+
 ---
 
 ## Installation
