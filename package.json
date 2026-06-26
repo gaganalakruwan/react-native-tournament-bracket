@@ -1,5 +1,5 @@
 {
-  "name": "react-native-tournament-bracket",
+  "name": "@gaganalakruwan/react-native-tournament-bracket",
   "version": "0.1.0",
   "description": "A customizable tournament bracket view for React Native. Supports bracket sizes of 4, 8, 16, and 32 teams (powers of 2).",
   "private": false,
@@ -54,6 +54,14 @@
     "react-native-svg-transformer": "^1.5.3",
     "react-test-renderer": "19.2.3",
     "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaganalakruwan/react-native-tournament-bracket.git"
+  },
+  "homepage": "https://github.com/gaganalakruwan/react-native-tournament-bracket#readme",
+  "bugs": {
+    "url": "https://github.com/gaganalakruwan/react-native-tournament-bracket/issues"
   },
   "engines": {
     "node": ">= 22.11.0"

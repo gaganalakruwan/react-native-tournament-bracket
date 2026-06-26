@@ -1,4 +1,4 @@
-# react-native-tournament-bracket
+# @gaganalakruwan/react-native-tournament-bracket
 
 A customizable tournament bracket view for React Native with animated scroll, SVG connector lines, and a round navigation bar.
 
@@ -11,13 +11,13 @@ Supports bracket sizes of **4, 8, 16, and 32 teams** (powers of 2).
 ## Installation
 
 ```sh
-npm install react-native-tournament-bracket react-native-svg
+npm install @gaganalakruwan/react-native-tournament-bracket react-native-svg
 ```
 
 or
 
 ```sh
-yarn add react-native-tournament-bracket react-native-svg
+yarn add @gaganalakruwan/react-native-tournament-bracket react-native-svg
 ```
 
 > `react-native-svg` is a required peer dependency. Follow its [setup guide](https://github.com/software-mansion/react-native-svg#installation) for native linking.
@@ -27,7 +27,7 @@ yarn add react-native-tournament-bracket react-native-svg
 ## Basic Usage
 
 ```tsx
-import BracketWithLines from 'react-native-tournament-bracket';
+import BracketWithLines from '@gaganalakruwan/react-native-tournament-bracket';
 
 <BracketWithLines
   data={matches}
@@ -152,8 +152,8 @@ Pass any local or remote image source. The trophy appears aligned with the final
 All types are exported from the package:
 
 ```ts
-import BracketWithLines from 'react-native-tournament-bracket';
-import type { BracketMatch, BracketViewProps, NavButtonItem } from 'react-native-tournament-bracket';
+import BracketWithLines from '@gaganalakruwan/react-native-tournament-bracket';
+import type { BracketMatch, BracketViewProps, NavButtonItem } from '@gaganalakruwan/react-native-tournament-bracket';
 ```
 
 ---

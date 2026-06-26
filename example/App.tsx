@@ -1,6 +1,6 @@
 import { StatusBar, useColorScheme } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import BracketWithLines from 'react-native-tournament-bracket';
+import BracketWithLines from '@gaganalakruwan/react-native-tournament-bracket';
 import { sampleArray } from './sampleArray';
 
 function App() {

@@ -13,7 +13,7 @@ const config = {
     sourceExts: [...defaultConfig.resolver.sourceExts, 'svg'],
     // Resolves 'react-native-bracket-view' to local src/ during development
     extraNodeModules: {
-      'react-native-tournament-bracket': path.resolve(__dirname, 'src'),
+      '@gaganalakruwan/react-native-tournament-bracket': path.resolve(__dirname, 'src'),
     },
   },
 };
